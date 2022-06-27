@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEP Buscador</title>
+  
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+</style>
+</head>
+<body>
+  
+  <header>
+    <h2><i class="fi fi-rr-globe"></i>PESQUISA CEP-RX</h2>
+    <p>- Faça uma busca de área usando seu cep, uma pesquisa rápida, e simples, totalmente gratuita, com uma demostração de sua localização completa. Faça o teste!</p>
+  </header>
+  
+  <div class="container-pa">
+    <div class="container-fi-un">
+      <h3>DIGITE SEU CEP !</h3>
+      <input type="number" name="cep" id="cep" placeholder="CEP - RX">
+      <input type="submit" value="PESQUISA" id="pesquisa">
+    </div>
+    <div class="container-fi-dos" id="dos">
+      <h2>ENDEREÇO - CEP: <span id="cep-user"></span></h2>
+      
+      <p id="logradouro"></p>
+      <p id="complemento"></p>
+      <p id="bairro"></p>
+      <p id="localidade"></p>
+      <p id="uf"></p>
+      <p id="ddd"></p>
+    </div>
+  </div>
+  
+  <footer>
+    <h3>{ Feito com HTML5, CSS3, JS }</h3>
+    <p>{ Autor Sérgio... }</p>
+  </footer>
+  <script src="./assets/main.js">s</script>
+</body>
+</html>

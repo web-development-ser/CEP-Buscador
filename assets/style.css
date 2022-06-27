@@ -1,0 +1,91 @@
+/* raiz */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* corpo */
+body {
+  letter-spacing: 1px;
+  
+  background: #EA7E17;
+  
+  padding: 27px;
+}
+
+/* topo - navegação - informações */
+header, h2, p {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  
+  margin-bottom: 17px;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+/* container dados ceps */
+.container-pa {
+  background-color: #05031D;
+  
+  padding: 17px 0;
+  
+  border-radius: 7px;
+}
+
+.container-fi-un {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fi-un h3 {
+  color: white;
+  padding: 27px 0;
+}
+
+.container-fi-un #cep {
+  padding: 13px 7px;
+  
+  margin-bottom: 23px;
+  
+  border: black 1px solid;
+  border-radius: 3px;
+}
+
+.container-fi-un #pesquisa {
+  background: #4E00FE;
+  color: white;
+  
+  padding: 13px 37px;
+  
+  border: none;
+  border-radius: 17px;
+}
+
+.container-fi-dos-estilo {
+  border: #EA7E17 solid 2px;
+  border-radius: 7px;
+  color: white;
+  
+  margin: 27px 7px;
+  
+  padding: 23px 0;
+}
+
+/* final dos dados - informações */
+footer h3 {
+  text-align: center;
+  margin-top: 50vh;
+  padding: 23px;
+  
+  border-radius: 7px;
+  
+  background-color: black;
+  color: white;
+}
